@@ -1,0 +1,85 @@
+
+ 1. Selecting and Installing the Operating System
+   - Operating System Chosen: Windows 11
+   - Steps:
+     1. Download the Windows 11 installer from the official Microsoft website.
+     2. Create a bootable USB drive using the downloaded ISO file (if performing a clean installation).
+     3. Install Windows 11, following the on-screen instructions.
+     4. Complete the initial setup, including system preferences and account creation.
+
+ 2. Installing Visual Studio Code (IDE)
+   - Steps:
+     1. Visit the Visual Studio Code website and download the Windows installer.
+     2. Run the installer and follow the prompts to install VS Code.
+     3. Launch VS Code and configure basic settings (e.g., theme, font size).
+     4. Install recommended extensions for improved functionality, such as:
+        - **ESLint:** For JavaScript/TypeScript linting.
+        - **Prettier:** For code formatting.
+        - **Live Server:** For live reloading of web applications.
+        - **GitLens:** For enhanced Git capabilities.
+
+ 3. Setting Up Version Control with Git and GitHub
+   - Steps:
+     1. Download and install Git from the official website.
+     2. Configure Git with your username and email using the commands:
+        ```
+        git config --global user.name "claire kabiro"
+        git config --global user.email "claire.kabiro@git.com"
+        ```
+     3. Create a GitHub account and set up SSH keys for secure authentication.
+     4. Initialize a Git repository in your project folder:
+        ```
+        git init
+        ```
+     5. Create a README.md file and make the first commit:
+        ```
+        git add README.md
+        git commit -m "Initial commit"
+        ```
+     6. Push the changes to a new GitHub repository.
+ 4. Installing Necessary Programming Languages and Runtimes
+   - Python Installation:
+     1. Download the latest Python installer from the official website.
+     2. Run the installer, ensuring to check the option to add Python to the system PATH.
+     3. Verify the installation by running `python --version` in the command prompt.
+   - Additional Languages:
+     - Install other languages and runtimes as required for your projects, such as Node.js, Java, etc.
+
+ 5. Installing Package Managers
+   - Pip for Python:
+     1. Ensure pip is installed with Python by running `pip --version`.
+     2. Use pip to install necessary packages, such as Flask or Django for web development.
+
+6. Configuring a Database (MySQL)
+   - Steps:
+     1. Download the MySQL installer from the official website.
+     2. Run the installer and follow the setup wizard to install MySQL.
+     3. Set up a root password and create a new user for your database.
+     4. Create a new database for your projects using the MySQL command line or a GUI tool like MySQL Workbench.
+
+7. Setting Up Development Environments and Virtualization
+   - Docker:
+     1. Download and install Docker Desktop for Windows.
+     2. Set up Docker containers for your project, defining necessary services in a `docker-compose.yml` file.
+   - Virtual Machines:
+     - Used tools like VirtualBox or VMware to create virtual machines for testing different environments.
+
+8. Exploring Extensions and Plugins
+   - Steps:
+     1. Explore the VS Code marketplace for extensions relevant to your workflow.
+     2. Install extensions for syntax highlighting, linting, debugging, and other functionalities.
+     3. Configure and customize these extensions as needed.
+
+ 9. Documenting the Setup Process
+   - Steps:
+     1. Create a detailed document outlining each step taken during the setup.
+     2. Include screenshots and explanations for each tool or configuration.
+     3. Document any challenges encountered and how they were resolved.
+     4. Share the document alongside the sample project on GitHub.
+
+10. Reflection
+   - Steps:
+     1. Reflect on the overall setup experience.
+     2. Identify challenges faced and how they were addressed.
+     3. Discuss the effectiveness of the chosen tools and configurations.
+
